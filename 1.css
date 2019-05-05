@@ -77,14 +77,16 @@ h2 {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     overflow: hidden;
     background-color: black;/*#98FB98;*/
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
     width: 500px;
     position: absolute;
-    right: 338px;
+    /*right: 0.7%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 /*#buttonNav {*/
@@ -108,7 +110,7 @@ li a:hover {
 /*Логин и регистрация по центру*/
 
 .container_login {
-    position: center;
+    position: fixed;
 }
 
 /*Корзина*/
@@ -116,10 +118,26 @@ li a:hover {
 #Trash {
     width: 500px;
     text-align: center;
-    color: #111111;
+    color: red;
     font-size: 1vw;
+    /*font-size: 2.2em; !* Размер текста *!*/
+    /*text-align: center; !* Выравнивание по центру *!*/
+    padding: 5px; /* Отступы вокруг текста */
+    background: blueviolet; /* Цвет фона шапки */
+    /*color: #ffe; !* Цвет текста *!*/
 }
 
 th, td {
     border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Админ-панель*/
+
+.div_center {
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
 }
