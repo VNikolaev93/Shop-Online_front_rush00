@@ -1,0 +1,125 @@
+#leftcol { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    width: 200px; /* Ширина колонки */
+}
+#rightcol { /* Правая колонка */
+    margin-left: 320px; /* Отступ слева */
+}
+
+body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #e1dfb9; /* Цвет фона */
+}
+h2 {
+    font-size: 1.1em; /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
+}
+#container {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+}
+#header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #9ACD32; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+}
+#sidebar {
+    margin-top: 10px;
+    width: 110px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+}
+#content {
+    margin-left: 130px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
+}
+#footer {
+    background: #8fa09b; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+    text-align: right;
+    width: 490px;
+}
+
+#textcenter {
+    text-align: center;
+}
+
+.buttonTrash {
+    border: none;
+    position: absolute;
+    right: 350px;
+    vertical-align: center;
+    width: 30px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    /*text-align: center;*/
+}
+
+/*#price {*/
+/*    display: inline-block;*/
+/*    content: attr(data-title);*/
+/*    position: absolute;*/
+/*    left: 0; right: 0; bottom: 5px;*/
+/*    z-index: 1;*/
+/*    background-color: lightcyan;*/
+/*    padding: 5px 10px;*/
+/*    border: 1px solid #8fa09b;*/
+
+/*}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;/*#98FB98;*/
+    border-radius: 0px 0px 10px 10px;
+    width: 500px;
+    position: absolute;
+    right: 338px;
+}
+
+/*#buttonNav {*/
+/*    background-color: #9ACD32;*/
+/*    padding-left: 5px;*/
+/*}*/
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*Логин и регистрация по центру*/
+
+.container_login {
+    position: center;
+}
+
+/*Корзина*/
+
+#Trash {
+    width: 500px;
+    text-align: center;
+    color: #111111;
+    font-size: 1vw;
+}
+
+th, td {
+    border: 1px solid black;
+}

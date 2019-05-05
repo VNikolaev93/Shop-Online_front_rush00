@@ -1,0 +1,13 @@
+body {
+    background-color: background: #e1dfb9;
+    font-family: Arial;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+}
+
+.login {
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+#header {
+    text-align: center;
+}
+
+body {
+    padding: 1.5em; margin: 1em;
+}
+
+#grid {
+    display: grid;
+    /*height: 100%;*/
+    /*width: 2vw;*/
+    grid-template-columns: 5% 20% 10% 10% 10% 5%;
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+
+
+    grid-column-gap: 1em;
+    border: 1px solid black;
+    border-collapse: ;
+    margin: auto;
+    justify-content: center;
+}
+
+#grid > div {
+    background-color: #d2d9dd;
+    text-align: center;
+    vertical-align: middle;
+    grid-column-gap: 1fr;
+    grid-row-gap: 1fr;
+}
+
+/*.table {*/
+/*    border: 4px double black; !* Рамка вокруг таблицы *!*/
+/*    border-collapse: separate;*/
+/*}*/
+
+/*#allPrice {*/
+/*    text-align: end;*/
+
+/*}*/
+
+<img class="irc_mi" src="" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="304" height="243" style="margin-top: 69px;" data-iml="1557043133158" alt="Картинки по запросу робот">https://nanojam.ru/pictures/product/big/4504_big.png
